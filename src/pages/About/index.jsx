@@ -6,7 +6,7 @@ import { faHome, faBell, faWifi } from "@fortawesome/free-solid-svg-icons";
 export default class index extends Component {
     render() {
         return (
-            <div>
+            <div >
                 <h3>移动端多页面切换动画</h3>
                 <div className="box1">
                     {this._mobileRender()}

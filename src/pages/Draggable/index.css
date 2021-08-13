@@ -1,0 +1,15 @@
+.my-Draggable{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.my-Draggable>.box1{
+    position: absolute ;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: red
+} 
+

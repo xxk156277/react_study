@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
-import { Route, Switch, Redirect } from 'react-router-dom'
-import NavLink from '../../Components/MyNavLink'
-import News from './news'
-import Messages from './messages'
 import './index.css'
 
 export default class index extends Component {
 
     render() {
         return (
-            <div>
+            <div id="form">
                 <h3>动感表单</h3>
                 {this._formRender()}
             </div>
